@@ -8,7 +8,7 @@
 }
 
 .container.top{
-  background-image: url(/assets/images/cover-history.jpg);
+  background-image: url(assets/images/cover-history.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
