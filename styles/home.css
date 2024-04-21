@@ -1,0 +1,102 @@
+/* home styles*/
+
+/*hero section*/
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -80px;
+  z-index: 1;
+  background-image: url(/assets/images/seabackgroundstraw.png);
+  background-position: top center;
+  background-size: cover;  
+}
+
+
+.subHero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 120rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.subHero h1{
+  font-family: "omnium-tagline", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;  
+  font-size: 160px;  
+  text-align: center;
+  z-index: 1;
+  color: rgb(216, 255, 243);
+  animation: scaleUp 1s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.hero__content{
+  max-width: 120rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero__content p{
+  color: var(--textHero);
+  font-size: var(--32);
+  font-weight: 600;
+  font-family: "oswald", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width:1200px) {
+  
+  .subHero h1{
+    font-size: 120px;
+  }
+
+  .hero__content{
+    padding: 0 20px;
+  }
+
+  .hero__content p{
+    
+    font-size: var(--24);
+    
+  }
+}
+
+@media (max-width:440px) {
+  
+  .subHero h1{
+    font-size: 80px;
+  }
+
+  .hero__content{
+    padding: 0 20px;
+  }
+
+  .hero__content p{
+    
+    font-size: var(--20);
+    font-weight: 400;
+    
+  }
+}
