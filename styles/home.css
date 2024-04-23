@@ -11,7 +11,7 @@
   min-height: 100vh;
   margin-top: -80px;
   z-index: 1;
-  background-image: url(assets/images/seabackgroundstraw.png);
+  background-image: url(/assets/images/seabackgroundstraw.png);
   background-position: top center;
   background-size: cover;  
 }
